@@ -1,19 +1,23 @@
 {
     "comment": "This file is for information about the characters in Strinova.",
     "Strinova Characters": {
-        "Name1": [
-
-        ],
-        "Name2": [
-
-        ]
+        "Name1": {
+            "information":"",
+            "tactics": ""
+        },
+        "Name2": {
+            "information":"",
+            "tactics": ""
+        }
     },
     "Calabiyau Characters": {
-        "Name1": [
-
-        ],
-        "Name2": [
-
-        ]
+        "Name1": {
+            "information":"",
+            "tactics": ""
+        },
+        "Name2": {
+            "information":"",
+            "tactics": ""
+        }
     }
 }
