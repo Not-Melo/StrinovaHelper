@@ -15,6 +15,11 @@ class ProfileSystem(commands.Cog):
         print(f"{Fore.GREEN}[ OK ]{Fore.RESET} loaded profile.py")
 
     # Make a profile system so people can search for there friend's friend code.
+    @app_commands.command(name="make_profile", description="Allow users to view your stats")
+    async def make_profile_cmd(self, interaction: discord.Interaction, friend_code: str, rank: str = "unranked"): # eh I don't feel like working on this part just yet...
+        embed = discord.Embed(title="", color=0xFFFFFF)
+        embed.set_footer(text="Maintained by the community.")
+        await interaction.response.send_message(embed=embed, ephemeral=True)
 
     # Allow members to update their profile
 
