@@ -11,7 +11,7 @@ class VoiceChannels(commands.Cog):
 
     @commands.Cog.listener()
     async def on_ready(self):
-        print(f"{Fore.GREEN}[ OK ]{Fore.RESET} Loaded VoiceChannels cog")
+        print(f"{Fore.GREEN}[ OK ]{Fore.RESET} Loaded VoiceChannels.py")
 
     @commands.Cog.listener()
     async def on_voice_state_update(self, member, before, after):
