@@ -1,0 +1,4 @@
+discord
+pytz
+colorama
+datetime
