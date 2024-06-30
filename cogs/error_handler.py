@@ -1,5 +1,6 @@
 import discord
 import datetime
+import pytz
 from discord import app_commands, Interaction
 from discord.ext import commands
 
@@ -25,8 +26,14 @@ class ERROR(commands.Cog):
         embed.set_thumbnail(
             url="https://cdn.discordapp.com/attachments/1255215236370141236/1255216537376129127/1200px-No_icon_28white_X_on_red_circle29.png?ex=667c52ff&is=667b017f&hm=91371407f058f63b6094ea4f35e5f94f704c23f24addd83e3b128bbeb96a6b6a&"
         )
-        embed.timestamp = datetime.datetime.utcnow()
-        embed.set_footer(text='UTC | ')
+
+        utc_time = datetime.datetime.utcnow()
+
+        target_timezone = pytz.timezone('America/Chicago')
+
+        cst_time = utc_time.replace(tzinfo=pytz.utc).astimezone(target_timezone)
+
+        embed.set_footer(text=f"{cst_time.strftime('%m/%d/%Y | %H:%M%p [CST]')}")
         error_channel = self.bot.get_channel(self.error_channel_id)
         if error_channel:
             await error_channel.send(embed=embed)
