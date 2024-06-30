@@ -1,1 +1,0 @@
-# ⚠️ ONLY USE FREE TO USE IMAGES #
