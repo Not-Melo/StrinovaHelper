@@ -1,1 +1,5 @@
 .env
+cogs/logs.py
+data/
+cogs/connect_guild.py
+cogs/__pycache__

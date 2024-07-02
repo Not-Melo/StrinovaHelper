@@ -37,7 +37,6 @@ async def load_cogs():
 
 # Bot status cycle
 status = cycle([
-    ":3",
     "Play Strinova / Calabiyau"
 ])
 
