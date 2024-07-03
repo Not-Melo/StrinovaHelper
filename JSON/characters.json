@@ -1,15 +1,37 @@
 {
     "comment": "This file is for information about the characters in Strinova.",
     "Strinova Characters": {
-        "Name1": {
-            "information":"",
-            "tactics": ""
+        "Michele": {
+            "information":"Sentinel",
+            "abilities": "Q: Deploys a Pawtector that sticks to surfaces, attacks and slows enemies. Passive: Reveals enemies through walls when they hit her with direct weapon fire. Ultimate: Michele deploys a powerful turret that auto-attacks nearby enemies."
         },
-        "Sandcat": {
-            "information":"",
-            "tactics": ""
-        }
+        "Ming": {
+            "information":"Duelist",
+            "abilities": "Q: Fires an electric orb that explodes on impact or upon command, damaging armor and creating a slowing electric field. Gains movement speed while within the orb. Passive: Regenerates armor based on the DMG her weapons and active skill deal to enemy armor and shields. Temporary shield regens faster during ultimate. Ultimate: Gains temporary armor and her shots apply a stacking slow effect. Damaging enemy armor with her weapons and active skill extends skill duration and replenishes hers."
+        },
+     "Maddelena": {
+            "information":"Controller",
+            "abilities": "Q: Creates a painted area that slows enemies, string-blocks them, and reveals their tracks. Passive: Hits from her primary weapon slow enemies and expose their tracks. Ultimate: Fires a giant bubble that string-blocks and tracks enemies within it. Upon bursting, it slows and makes enemies vulnerable in the blast area. "
+  "Yvette": {
+            "information":"Controller",
+            "abilities": "Q: Summons a controllable warbear that creates an icy surface upon colliding or on command, causing slipping, and increase vulnerability. Passive: Becomes camouflaged after standing still, remaining invisible to distant enemies and gradually visible to those closer. Ultimate: Summons a Frost Bear that creates three polar zones in succession, causing enemies to slip, slowing their firing rate, and reducing weapon usability."
+  "Merideith": {
+            "information":"Controller",
+            "abilities": "Q: Fires an energy orb that releases a sandstorm upon impact, temporarily reducing enemy movement speed and weapon usability, while also draining their HP. Passive: While airborne, Meredith's descent speed greatly reduces when aiming with weapons, skills, or tactical items. Ultimate: Summons a Haboob, obscruing vision, pulling enemies toward the center, and temporarily draining their HP."
     },
+  "Celestia": {
+            "information":"Support",
+            "abilities": "Q: Casts a star on an ally, rengerating their armor and increasing their max armor. The star then returns to boost her own armor similarly. Passive: Gradually restores her own armor and that of nearby enemies. Ultimate: Grants armor to an ally and charges energy. Once fully charged, she teleports to their location. Pressing the ultimate key during the charge cancels the teleportation but retains the armor boost."
+    },
+ "Kokona": {
+            "information":"Support",
+            "abilities": "Q: Deploys a healing drone that hovers over a chosen target, continuously healing nearby allies. Passive: Healing Speed increased when rescuing allies. Ultimate: Revives a fallen ally at her location. "
+    },
+ "Lawine": {
+            "information":"Initiator",
+            "abilities": "Q: Throws a pulse blade that creates an electromagnetic field, exposing nearby enemies to her team. The  "
+    },
+
     "Calabiyau Characters": {
         "Name1": {
             "information":"",
