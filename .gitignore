@@ -1,3 +1,4 @@
+.gitignore
 .env
 cogs/logs.py
 data/

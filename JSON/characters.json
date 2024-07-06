@@ -2,75 +2,169 @@
     "comment": "This file is for information about the characters in Strinova.",
     "Strinova Characters": {
         "Michele": {
-            "information": "Sentinel",
-            "abilities": "Q: Deploys a Pawtector that sticks to surfaces, attacks and slows enemies. Passive: Reveals enemies through walls when they hit her with direct weapon fire. Ultimate: Michele deploys a powerful turret that auto-attacks nearby enemies."
+            "Type": "Sentinel",
+            "Char_color":"",
+            "Chibi_Thumbnail":"",
+            "W1":"",
+            "W2":"",
+            "W3":"",
+            "Passive":"",
+            "Ult":"",
+            "back_story":""
         },
         "Ming": {
-            "information": "Duelist",
-            "abilities": "Q: Fires an electric orb that explodes on impact or upon command, damaging armor and creating a slowing electric field. Gains movement speed while within the orb. Passive: Regenerates armor based on the DMG her weapons and active skill deal to enemy armor and shields. Temporary shield regens faster during ultimate. Ultimate: Gains temporary armor and her shots apply a stacking slow effect. Damaging enemy armor with her weapons and active skill extends skill duration and replenishes hers."
+            "Type": "Duelist",
+            "Char_color":"",
+            "Chibi_Thumbnail":"",
+            "W1":"",
+            "W2":"",
+            "W3":"",
+            "Passive":"",
+            "Ult":"",
+            "back_story":""
         },
         "Maddelena": {
-            "information": "Controller",
-            "abilities": "Q: Creates a painted area that slows enemies, string-blocks them, and reveals their tracks. Passive: Hits from her primary weapon slow enemies and expose their tracks. Ultimate: Fires a giant bubble that string-blocks and tracks enemies within it. Upon bursting, it slows and makes enemies vulnerable in the blast area."
+            "Type": "Controller",
+            "Char_color":"",
+            "Chibi_Thumbnail":"",
+            "W1":"",
+            "W2":"",
+            "W3":"",
+            "Passive":"",
+            "Ult":"",
+            "back_story":""
         },
         "Yvette": {
-            "information": "Controller",
-            "abilities": "Q: Summons a controllable warbear that creates an icy surface upon colliding or on command, causing slipping, and increase vulnerability. Passive: Becomes camouflaged after standing still, remaining invisible to distant enemies and gradually visible to those closer. Ultimate: Summons a Frost Bear that creates three polar zones in succession, causing enemies to slip, slowing their firing rate, and reducing weapon usability."
+            "Type": "Controller",
+            "Char_color":"",
+            "Chibi_Thumbnail":"",
+            "W1":"",
+            "W2":"",
+            "W3":"",
+            "Passive":"",
+            "Ult":"",
+            "back_story":""
         },
         "Merideith": {
-            "information": "Controller",
-            "abilities": "Q: Fires an energy orb that releases a sandstorm upon impact, temporarily reducing enemy movement speed and weapon usability, while also draining their HP. Passive: While airborne, Meredith's descent speed greatly reduces when aiming with weapons, skills, or tactical items. Ultimate: Summons a Haboob, obscuring vision, pulling enemies toward the center, and temporarily draining their HP."
+            "Type": "Controller",
+            "Char_color":"",
+            "Chibi_Thumbnail":"",
+            "W1":"",
+            "W2":"",
+            "W3":"",
+            "Passive":"",
+            "Ult":"",
+            "back_story":""
         },
         "Celestia": {
-            "information": "Support",
-            "abilities": "Q: Casts a star on an ally, regenerating their armor and increasing their max armor. The star then returns to boost her own armor similarly. Passive: Gradually restores her own armor and that of nearby enemies. Ultimate: Grants armor to an ally and charges energy. Once fully charged, she teleports to their location. Pressing the ultimate key during the charge cancels the teleportation but retains the armor boost."
+            "Type": "Support",
+            "Char_color":"",
+            "Chibi_Thumbnail":"",
+            "W1":"",
+            "W2":"",
+            "W3":"",
+            "Passive":"",
+            "Ult":"",
+            "back_story":""
         },
         "Kokona": {
-            "information": "Support",
-            "abilities": "Q: Deploys a healing drone that hovers over a chosen target, continuously healing nearby allies. Passive: Healing Speed increased when rescuing allies. Ultimate: Revives a fallen ally at her location."
+            "Type": "Support",
+            "Char_color":"",
+            "Chibi_Thumbnail":"",
+            "W1":"",
+            "W2":"",
+            "W3":"",
+            "Passive":"",
+            "Ult":"",
+            "back_story":""
         },
         "Lawine": {
-            "information": "Initiator",
-            "abilities": "Q: Throws a pulse blade that creates an electromagnetic field, exposing nearby enemies to her team. The Pulse Blade vanishes if no enemies are detected or after 3 scans. Passive: Enemies hit by Lawine's primary weapon are briefly exposed to her. Ultimate: Creates a stealth zone and becomes invisible upon entering it, but she cannot fire within the zone."
+            "Type": "Initiator",
+           "Char_color":"",
+            "Chibi_Thumbnail":"",
+            "W1":"",
+            "W2":"",
+            "W3":"",
+            "Passive":"",
+            "Ult":"",
+            "back_story":""
         },
         "Audry": {
-            "information": "Sentinel",
-            "abilities": "Q: Enters deployment mode to greatly increase her firing rate with no recoil and without needing to reload. Extended firing causes the weapon to overheat, temporarily rendering her unable to shoot. Passive: Generates a frontal shield when entering ADS or Deployment Mode, with increased shield during deployment mode. Ultimate: Deploys a grenade launcher that fires 6 grenades. The grenades release ricocheting shrapnel that ignites the ground upon impact."
+            "Type": "Sentinel",
+            "Char_color":"",
+            "Chibi_Thumbnail":"",
+            "W1":"",
+            "W2":"",
+            "W3":"",
+            "Passive":"",
+            "Ult":"",
+            "back_story":""
         },
         "Nobunaga": {
-            "information": "Sentinel",
-            "abilities": "Q: Can deploy up to 2 guardian eyes, creating domains that boost fire rate, weapon usability, and armor regeneration. Connecting the devices amplifies these effects. Passive: Charges his shots in ADS mode, fully charged shots cause enemies to lose their crosshairs while aiming. Ultimate: Deploys a generator that emits pulses, revealing and silencing enemies within range and sharing their locations with his team."
+            "Type": "Sentinel",
+            "Char_color":"",
+            "Chibi_Thumbnail":"",
+            "W1":"",
+            "W2":"",
+            "W3":"",
+            "Passive":"",
+            "Ult":"",
+            "back_story":""
         },
         "Reiichi": {
-            "information": "Controller",
-            "abilities": "Q: Deploys his umbrella to create a light screen, castable vertically or horizontally that obscures vision. Passive: Periodically scans enemies while in ADS mode. Scanned enemies are briefly exposed to him. Ultimate: Instantly refreshes his active skill, enhancing the light screen to block all enemy bullets."
+            "Type": "Controller",
+            "Char_color":"",
+            "Chibi_Thumbnail":"",
+            "W1":"",
+            "W2":"",
+            "W3":"",
+            "Passive":"",
+            "Ult":"",
+            "back_story":""
         },
         "Fuschia": {
-            "information": "Duelist",
-            "abilities": "Q: Exposes nearby enemies, visible only to her. Full HP enemies appear briefly while those under 100hp remain visible for the skill's duration. Exposing enemies boosts her movement speed. Passive: Enemies killed or assisted by Fuschia drop Energy Crystals, which she can absorb to restore HP. Ultimate: Greatly boosts her firing rate and weapon usability, allowing her active skill to highlight enemies within her vision. Absorbing energy crystals extends the skill's duration."
+            "Type": "Duelist",
+            "Char_color":"",
+            "Chibi_Thumbnail":"",
+            "W1":"",
+            "W2":"",
+            "W3":"",
+            "Passive":"",
+            "Ult":"",
+            "back_story":""
         },
         "Flavia": {
-            "information": "Duelist",
-            "abilities": "Q: When attacked, Flavia briefly becomes invincible and summons a phantom orb at her location that obstructs enemy vision but can be destroyed. Passive: Active skill CD reduces when she takes damage; upon taking significant DMG, she gains temporary ultimate points, valid for current round. Ultimate: Generates a phantom zone at her location. Enemy fatal attacks within her zone trigger her brief butterfly transformation. This effect does not apply outside of her zone."
+            "Type": "Duelist",
+            "Char_color":"",
+            "Chibi_Thumbnail":"",
+            "W1":"",
+            "W2":"",
+            "W3":"",
+            "Passive":"",
+            "Ult":"",
+            "back_story":""
         },
         "Kanami": {
-            "information": "Initiator",
-            "abilities": "Q: Fires a sonar disk that scans for unobstructed enemies in a 180 degree arc in front of her. Detected enemies are revealed to her and her teammates. Passive: Shots generate Sonar Zones at the impact point. Enemies within this area are exposed. Ultimate: Summons a holographic figure that attracts enemies within a certain range, reducing their movement speed and accuracy."
+            "Type": "Initiator",
+            "Char_color":"",
+            "Chibi_Thumbnail":"",
+            "W1":"",
+            "W2":"",
+            "W3":"",
+            "Passive":"",
+            "Ult":"",
+            "back_story":""
         },
         "Bai Mo": {
-            "information": "Duelist",
-            "abilities": "Q: Zooms forward and automatically reloads his shotgun with two shells. CD refreshes upon kills and assists. Passive: Primary weapon string-blocks enemies upon dealing at least 50 DMG in a single shot. Ultimate: Places a beacon. If he's downed or killed, he can instantly respawn there. He can also return to his beacon anytime to fully restore his HP."
-        }
-    },
-
-    "Calabiyau Characters": {
-        "Name1": {
-            "information": "",
-            "tactics": ""
-        },
-        "Name2": {
-            "information": "",
-            "tactics": ""
+            "Type": "Duelist",
+            "Char_color":"",
+            "Chibi_Thumbnail":"",
+            "W1":"",
+            "W2":"",
+            "W3":"",
+            "Passive":"",
+            "Ult":"",
+            "back_story":""
         }
     }
 }
