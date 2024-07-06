@@ -1,4 +1,5 @@
 import discord
+import json
 from discord.ext import commands
 from discord import app_commands
 from colorama import Fore
@@ -14,40 +15,41 @@ class InfoSystem(commands.Cog):
         print(f"{Fore.GREEN}[ OK ]{Fore.RESET} loaded Info.py")
 
     @app_commands.command(name="char_info", description="Learn about the characters.")
-    @app_commands.choices(choices=[
-        app_commands.Choice(name="Ming", value="Ming"),
-        app_commands.Choice(name="Michele", value="Michele"),
-        app_commands.Choice(name="Example", value="Example"),
-    ])
-    async def info_cmd(self, interaction: discord.Interaction, choices: app_commands.Choice[str]):
-        # json open file
-
-        Char_color=0xfffff # Example replace with json
-
-        Chibi_Thumbnail="https://i.pinimg.com/736x/34/05/27/340527254d64e5ae5261ddbb95ae34de.jpg"
-
-        ## Wakenings from JSON ##
+    async def info_cmd(self, interaction: discord.Interaction, Search: str):
         
-        W1="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        W2="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        W3="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        with open(f"/JSON/characters.json", "r") as file:
+            Char_Info = json.load(file)
+        
+        Search = Search.lower()
 
-        ## Passive & Ult from JSON ##
-        Passive = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        Ult = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        if Search in Char_Info["Strinova Characters"]:
 
-        # | Back Story from JSON | #
-        back_story="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl rhoncus mattis rhoncus urna neque viverra. Tellus orci ac auctor augue. Ridiculus mus mauris vitae ultricies leo integer malesuada. Aliquet enim tortor at auctor urna."
+            char_data = Char_Info["Strinova Characters"][Search]
+            char_type = char_data["Type"]
+            char_color = char_data["Char_color"]
+            chibi_thumbnail = char_data["Chibi_Thumbnail"]
+            w1 = char_data["W1"]
+            w2 = char_data["W2"]
+            w3 = char_data["W3"]
+            passive = char_data["Passive"]
+            ult = char_data["Ult"]
+            back_story = char_data["back_story"]
 
-        embed = discord.Embed(title=f"{choices.value} | Character Information", color=Char_color)
-        embed.add_field(name="Wakening 1", value=f"{W1}", inline=True)
-        embed.add_field(name="Wakening 2", value=f"{W2}", inline=True)
-        embed.add_field(name="Wakening 3", value=f"{W3}", inline=True)
-        embed.add_field(name="Passive", value=f"{Passive}", inline=True)
-        embed.add_field(name="Ult", value=f"{Ult}", inline=True)
-        embed.add_field(name=f"{choices.value}'s Back story", value=f"{back_story}", inline=False)
-        embed.set_thumbnail(url=Chibi_Thumbnail)
-        await interaction.response.send_message(embed=embed, ephemeral=False)
+            embed = discord.Embed(title=f"{Search} | Character Information", color=char_color)
+            embed.add_field(name="Wakening 1", value=f"{w1}", inline=True)
+            embed.add_field(name="Wakening 2", value=f"{w2}", inline=True)
+            embed.add_field(name="Wakening 3", value=f"{w3}", inline=True)
+            embed.add_field(name="Passive", value=f"{passive}", inline=True)
+            embed.add_field(name="Ult", value=f"{ult}", inline=True)
+            embed.add_field(name=f"{Search}'s Back story", value=f"{back_story}", inline=False)
+            embed.set_footer(text=f"Type: {char_type}")
+            embed.set_thumbnail(url=chibi_thumbnail)
+            await interaction.response.send_message(embed=embed, ephemeral=False)
+        else:
+            embed = discord.Embed(title="Error", description=f"Could not find information for '{Search}'.")
+            embed.add_field(name="Did you spell something wrong?", value="Please check the list of characters.")
+            embed.add_field(name="List of characters...", value="```\nMichele | Ming | Maddelena\nYvette | Merideith | Celestia\nKokona | Lawine | Audry\nNobunaga | Reiichi | Fuschia\nFlavia | Kanami | Bai Mo\n```")
+            await interaction.response.send_message(embed=embed, ephemeral=True)
 
 
 async def setup(bot):

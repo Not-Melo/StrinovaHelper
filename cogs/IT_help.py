@@ -11,7 +11,7 @@ class IT_HELP(commands.Cog):
     
     @commands.Cog.listener()
     async def on_ready(self):
-        print(f"{Fore.GREEN}[ OK ]{Fore.RESET} loaded help.py")
+        print(f"{Fore.GREEN}[ OK ]{Fore.RESET} loaded IT_help.py")
 
     @app_commands.command(name="tech_question", description="Having Strinova tech issues?")
     async def help_cmd(self, interaction: discord.Interaction, question: str):
