@@ -1,25 +1,34 @@
 {
     "comment": "This file is for information about the maps in Strinova.",
     "Strinova Maps": {
-        "Area 88": [
+        "Search and Destroy": {
+            "Area 88": {
+                "about": "",
+                "tips": "",
+                "line ups": ""
+            },
+            "Windy Town": {
+                "about": "",
+                "tips": "",
+                "line ups": ""
+            },
+            "Base 404": {
+                "about": "",
+                "tips": "",
+                "line ups": ""
+            },
+            "Port Euler": {
+                "about": "",
+                "tips": "",
+                "line ups": ""
+            }
 
-        ],
-        "Windy Town": [
+        },
+        "Escort": {
 
-        ],
-        "Base 404": [
+        },
+        "limited Time": {
 
-        ],
-        "Port Euler": [
-
-        ]
-    },
-    "Calabiyau Maps": {
-        "Name1": [
-
-        ],
-        "Name2": [
-
-        ]
+        }
     }
 }
